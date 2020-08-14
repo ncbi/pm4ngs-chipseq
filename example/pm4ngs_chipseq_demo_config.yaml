@@ -9,7 +9,7 @@ default_context:
   number_spots: "1000000"
   organism: "mouse"
   genome_name: "mm9"
-  genome_dir: "/home/veraalva/mm9"
+  genome_dir: "mm9"
   aligner_index_dir: "{{ cookiecutter.genome_dir}}/BWA/"
   genome_fasta: "{{ cookiecutter.genome_dir}}/genome.fa"
   genome_gtf: "{{ cookiecutter.genome_dir}}/genes.gtf"
