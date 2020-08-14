@@ -1,0 +1,21 @@
+{
+  "author_name": "Roberto Vera Alvarez",
+  "email": "veraalva@ncbi.nlm.nih.gov",
+  "project_name": "my_ngs_project",
+  "dataset_name": "my_dataset_name",
+  "is_data_in_SRA": "None",
+  "sequencing_technology": ["single-end", "paired-end"],
+  "create_demo": "y",
+  "number_spots": "1000000",
+  "organism": "human",
+  "genome_name": "hg38",
+  "genome_dir": "{{ cookiecutter.genome_name }}",
+  "aligner_index_dir": "{{ cookiecutter.genome_name }}/BWA",
+  "genome_fasta": "{{ cookiecutter.genome_name }}/genome.fa",
+  "genome_gtf": "{{ cookiecutter.genome_name }}/genome.gtf",
+  "genome_mappable_size": "hg38",
+  "fdr": "0.05",
+  "use_docker": "y",
+  "max_number_threads": "16"
+}
+
