@@ -34,10 +34,6 @@ from pm4ngs.jupyterngsplugin.utils.samples import write_sample_table_pe_to_yaml
 from pm4ngs.jupyterngsplugin.utils.samples import write_sample_table_se_to_yaml
 {% endif %}
 
-from goenrichment.enrichment import calculate
-from goenrichment.go import load_goenrichdb
-from goenrichment.graph import ancestors
-
 ###############################################################
 #
 #    Update cutoff values

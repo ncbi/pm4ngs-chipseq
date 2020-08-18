@@ -1,19 +1,22 @@
-name: rnaseq
+name: chipseq
 channels:
   - conda-forge
   - bioconda
   - defaults
 dependencies:
   - bamtools=2.5.1
-  - bcftools=1.9
+  - bcftools=1.10.2
+  - bedtools=2.29.2
   - bioconductor-diffbind=2.16.0
+  - bwa=0.7.17
   - fastqc=0.11.9
+  - idr=2.0.4.2
   - igvtools=2.5.3
-  - rseqc=3.0.1
+  - homer=4.11
+  - macs2=2.2.7.1
+  - phantompeakqualtools=1.2.2
   - samtools=1.10
-  - sra-tools=2.10.7
-  - star=2.7.5a
-  - tpmcalculator=0.0.3
+  - sra-tools=2.10.8
   - trimmomatic=0.39
   - ucsc-gtftogenepred=377
   - ucsc-genepredtobed=377
