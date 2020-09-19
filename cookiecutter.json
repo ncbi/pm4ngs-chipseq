@@ -12,7 +12,7 @@
   "genome_dir": "{{ cookiecutter.genome_name }}",
   "aligner_index_dir": "{{ cookiecutter.genome_name }}/BWA",
   "genome_fasta": "{{ cookiecutter.genome_name }}/genome.fa",
-  "genome_gtf": "{{ cookiecutter.genome_name }}/genome.gtf",
+  "genome_gtf": "{{ cookiecutter.genome_name }}/genes.gtf",
   "genome_mappable_size": "hg38",
   "fdr": "0.05",
   "use_docker": "y",
