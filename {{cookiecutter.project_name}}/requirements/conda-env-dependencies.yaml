@@ -4,19 +4,19 @@ channels:
   - bioconda
   - defaults
 dependencies:
-  - bamtools=2.5.1
-  - bcftools=1.10.2
-  - bedtools=2.29.2
-  - bioconductor-diffbind=2.16.0
+  - bamtools=2.5.2
+  - bcftools=1.17
+  - bedtools=2.31.0
+  - bioconductor-diffbind=3.8.0
   - bwa=0.7.17
-  - fastqc=0.11.9
+  - fastqc=0.12.1
   - idr=2.0.4.2
-  - igvtools=2.5.3
+  - igvtools=2.14.1
   - homer=4.11
   - macs2=2.2.7.1
   - phantompeakqualtools=1.2.2
-  - samtools=1.10
-  - sra-tools=2.10.8
+  - samtools=1.17
+  - sra-tools=3.0.5
   - trimmomatic=0.39
-  - ucsc-gtftogenepred=377
-  - ucsc-genepredtobed=377
+  - ucsc-gtftogenepred=477
+  - ucsc-genepredtobed=477
